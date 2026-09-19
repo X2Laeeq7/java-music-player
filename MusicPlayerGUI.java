@@ -34,7 +34,6 @@ public class MusicPlayerGUI implements SongChangeListener {
     private Label currentTimeLabel;
     private Label totalTimeLabel;
     private ImageView coverArtView;
-    private ImageView spotify;
 
     //Constructors
     public MusicPlayerGUI(Stage stage,MusicPlayer player){
@@ -60,17 +59,6 @@ public class MusicPlayerGUI implements SongChangeListener {
     public void start(){
         //INTERFACE
         player.addSongChangeListener(this); 
-
-        //LOGO
-        spotify = new ImageView();
-        spotify.setFitWidth(45); 
-        spotify.setFitHeight(45);
-        spotify.setPreserveRatio(true);
-        Image spotifyImage = new Image(new File("images/spotify.png").toURI().toString());
-        spotify.setImage(spotifyImage);
-        BorderPane topBar = new BorderPane();
-        topBar.setLeft(spotify);
-        BorderPane.setMargin(spotify, new Insets(0, 0, 0, 0));
 
         //PLAYLIST LABEL
         Label playlistLabel1 = new Label("PLAYING FROM PLAYLIST");
@@ -152,7 +140,7 @@ public class MusicPlayerGUI implements SongChangeListener {
         
         //MAIN SCENE
         VBox layout = new VBox(20);
-        layout.getChildren().addAll(topBar,playlistContainer,imageContainer, titleBox,progressBar, timePane,buttonBox);
+        layout.getChildren().addAll(playlistContainer,imageContainer, titleBox,progressBar, timePane,buttonBox);
         layout.setStyle("-fx-background-color: #000000ff;");
         layout.setPadding(new Insets(20));
         Scene scene = new Scene(layout,400,750);
