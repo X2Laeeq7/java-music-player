@@ -57,7 +57,7 @@ The application uses an object-oriented design where different classes are respo
 
 The repository intentionally **does not include the music files or cover artwork** used by the application.
 
-The project uses locally stored `.mp3` files and album/cover artwork. These files may be copyrighted, so they are excluded from the public GitHub repository.
+The project uses locally stored `.mp3` files and album/cover artwork. These files are copyrighted, so they are excluded from the public GitHub repository.
 
 To run the player with your own music:
 
