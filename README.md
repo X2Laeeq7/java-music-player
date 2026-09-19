@@ -10,7 +10,7 @@ A desktop music player built with **Java and JavaFX** while learning object-orie
 * **Progress Bar** — Track playback progress and seek through songs
 * **Time Display** — Shows current playback time and total duration
 * **Cover Art** — Displays artwork for the current song
-* **Dark Theme UI** — JavaFX graphical interface
+* **Dark Theme UI with blue icons** — JavaFX graphical interface
 
 ## Project Structure
 
