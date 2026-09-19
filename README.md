@@ -59,19 +59,13 @@ The repository intentionally **does not include the music files or cover artwork
 
 The project uses locally stored `.mp3` files and album/cover artwork. These files are copyrighted, so they are excluded from the public GitHub repository.
 
-To run the player with your own music:
-
-1. Place your own `.mp3` files in the local `music/` folder.
-2. Add the corresponding songs in `Main.java`.
-3. Add your own artwork to the local `images/` folder if required by the application.
-
 The `.gitignore` file prevents these local files from being uploaded to GitHub.
 
 ## Usage
 
-1. Add your own music files to the local `music/` folder.
+1. Add your own music `.mp3` files to the local `music/` folder.
 2. The songs get automatically added to the player with default image and unknown artist
-   however u can configure the songs manually for custom album covers in `Main.java`.
+   however you can configure the songs manually for custom album covers in `Main.java`.
 4. Run `Main.java`.
 5. Use the player controls to play and navigate through the playlist.
 
