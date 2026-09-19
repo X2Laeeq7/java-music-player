@@ -25,7 +25,7 @@ public class Main extends Application {
                         title,
                         "Unknown Artist",
                         file.getPath(),
-                        "images/default.jpg"
+                        "image/default.jpg"
                     );
 
                     playlist.addSong(song);
