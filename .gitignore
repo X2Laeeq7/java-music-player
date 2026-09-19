@@ -1,0 +1,14 @@
+# Local music files
+music/
+
+# Copyrighted/local cover art
+images/
+
+# Java compiled files
+*.class
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
